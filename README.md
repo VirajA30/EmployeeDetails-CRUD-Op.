@@ -10,8 +10,6 @@ This web application provides a CRUD (Create, Read, Update, Delete) interface fo
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -33,11 +31,18 @@ Before you begin, ensure you have the following prerequisites:
 - A modern web browser to run the application.
 - A code editor (e.g., Visual Studio Code) for making code changes if necessary.
 
-## Installation
 
-1. Clone this repository to your local machine:
+## Getting Started
 
-   
+To run this application locally, follow these
+
+steps: 1. Clone the repository to your local
+
+machine:
+
+2. ii. Open the project folder in your code editor.
+
+3. Open the EmployeeDetails.html file in your web browser.
 ## Usage
 
 1.Adding a New Employee:
