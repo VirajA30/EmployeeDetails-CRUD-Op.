@@ -62,4 +62,4 @@ To clear the search filter and view all employees again, click the "Clear Filter
 
 - Making all the changes in the local storage and storing the data in the local storage.
 
-<img src="">
+<img src="Employee Details Overview.png">
