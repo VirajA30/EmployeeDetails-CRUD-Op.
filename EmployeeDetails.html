@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details Page</title>
+    <link rel="stylesheet" href="./EmployeeDetails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class="header">Employee Details</div>
+    <div class="btn-search">
+        <div class="btn-left"><button class="btn">+ Add Employee</button>
+            <button class="clear"><i class="fa fa-eraser" style="background-color: transparent;"></i> Clear
+                Filtering</button>
+        </div>
+        <div class="btn-right">
+            <label for="search"><i class="fa-solid fa-magnifying-glass" id="searchicon"></i></label>
+            <input type="text" placeholder="Enter Emp Id" id="search" name="search-content" class="search">
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <div class="tab">
+        <table class="Details">
+            <tr>
+                <th>Sr No.</th>
+                <th>Profile</th>
+                <th>Emp Id</th>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>E-mail</th>
+                <th>Office Code</th>
+                <th>Job Title</th>
+                <th>Action</th>
+            </tr>
+            <tbody id="tableDetails"></tbody>
+        </table>
+    </div>
+    <div class="addcard">
+        <i class="fa fa-times-circle" id="exit"></i>
+        <div class="leftaddcard">
+            <div class="profile"><img src="./img/business-man-512.webp" id="profilepic"
+                    style="width: 130px; height: 130px;" alt="">
+                <input type="file" id="uploadimg">
+                <i class="fa fa-camera" id="camera"></i>
+            </div>
+        </div>
+        <div class="rightaddcard">
+            <form id="registration-form">
+                <div class="rightcontent">
+                    <label for="ID">Emp Id</label>
+                    <input type="text" id="ID" maxlength="6">
+                </div>
+                <div class="rightcontent">
+                    <label for="f-name">Name</label>
+                    <input type="text" id="f-name">
+                </div>
+                <div class="rightcontent">
+                    <label for="l-name">Last Name</label>
+                    <input type="text" id="l-name">
+                </div>
+                <div class="rightcontent">
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail">
+                </div>
+                <div class="rightcontent">
+                    <label for="offcode">Office code</label>
+                    <input type="text" id="offcode">
+                </div>
+                <div class="rightcontent">
+                    <label for="jobtitle">Job Title</label>
+                    <input type="text" id="jobtitle">
+                </div>
+            </form>
+            <div class="Register">
+                <button id="registerbtn">Register</button>
+                <button id="UpdateBtn">Update</button>
+            </div>
+        </div>
+    </div>
+    <script src="./EmployeeDetails.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+*{
+    background-color:rgb(255, 255, 255);
+}
+
+.header{
+    background-color: rgb(90, 13, 185);
+    height: 30px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+.btn-search{
+    height: 100px;
+    margin-top: 2%;
+}
+.btn-right{
+float: right;
+padding-right: 20px;
+width: 400px;
+/* display: flex; */
+}
+.btn,button{
+    height: 25px;
+    width: 118px;
+    background-color: rgb(90, 13, 185);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.search{
+    width: 250px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(90, 13, 185);
+   color: black;
+
+}
+#searchicon{
+    color: rgb(90, 13, 185);
+}
+.Details{
+    color: black;
+    width: 100%;
+    text-align: center;
+    border: none;
+    /* border-bottom: 2px solid grey; */
+}
+.Details th{
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.Details td{
+    border-bottom: 2px solid rgba(97, 93, 93, 0.584);
+    border-right: 2px solid rgba(97, 93, 93, 0.584);
+    height: 75px;
+}
+.Details td button{
+    height: 30px;
+    width: 30px;
+}
+
+/*card section*/
+.addcard{
+    height: 70%;
+    width: 0%;
+    background-color: #6464c7;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    border: 5px solid rgb(90, 13, 185);
+    
+}
+#exit{
+    z-index: 1;
+    color: red;
+    background-color: transparent;
+    position: absolute;
+    right: 5px;
+    font-size: x-large;
+top: 5px;
+cursor: pointer;
+}
+.leftaddcard{
+    width: 35%;
+    display: flex;
+    background-color:  white;
+    border-radius: 20px;
+    border-left: 5px solid rgb(90, 13, 185);
+
+}
+.rightaddcard{
+    width: 65%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 20px;
+    border-right: 5px solid rgb(90, 13, 185);
+
+}
+.profile{
+    height: 40%;
+    width: 100%;
+  background-color: white;
+    padding: 50px;
+    display: flex;
+    border-radius: 20px;
+
+}
+.profile img{
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    
+}
+.profile i{
+    position: absolute;
+    left: 158px;
+    top: 30%;
+    font-size: larger ;
+}
+.profile input{
+    position: absolute;
+    left: 158px;
+    top: 30%;
+    width: 50px;
+    opacity: 0;
+    height: 75px;
+    background-color: transparent;
+    z-index: 1;
+}
+.rightaddcard .rightcontent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(90, 13, 185);
+    background-color: white;
+    
+}
+.rightaddcard .rightcontent label{
+    padding: 3.5%;
+    font-weight: bolder;
+    background-color: transparent;
+    
+    
+}
+.rightaddcard .rightcontent input{
+  border: none;
+  border-bottom: 3px solid rgb(90, 13, 185);
+  width: 75%;
+  outline: none;
+  color: rgb(90, 13, 185);
+  font-size: large;
+  background-color:  transparent;
+  border-radius: 20px;
+
+}
+.Register{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.Register button{
+    margin-top: 10px;
+    height: 35px;
+    width: 45%;
+}
+button:disabled{
+    filter: grayscale(100%);
+    cursor: default;
+}
+#camera{
+    font-size: x-large;
+    color: rgb(90, 13, 185);
+    background-color: transparent;
+}
+button:not(:disabled):hover {
+    color: rgb(90, 13, 185) ;
+    border: 2px solid rgb(90, 13, 185);
+    background-color: white;
+
+}
+
